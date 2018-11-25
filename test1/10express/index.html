@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="root">
+		
+	</div>
+
+	<script src="js/jquery-3.3.1.js"></script>
+
+	<script>
+		$.ajax({
+			type:'get',
+			url:'http://localhost:3000/teacher',
+			success:function(data){
+				setView(data)
+			}
+		})
+		function setView(data){
+			$('.root').html(data.tName)
+		}
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+	"teacherInfo":{
+		"tName":"iwen",
+		"age":30,
+		"sex":"男"
+	},
+
+	"studentInfo":[
+		{
+			"name":"wuzhen",
+			"age":16,
+			"sex":"女"
+		},
+		{
+			"name":"sl",
+			"age":26,
+			"sex":"男"
+		}
+
+	]
+}
